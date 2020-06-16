@@ -187,11 +187,13 @@ body {
   margin: 20px;
   color: white;
 }
+
 .hire-header h2 {
   margin: 16px;
   font-size: 36px;
   line-height: 42px;
 }
+
 .hire-header p {
   font-size: 16px;
   line-height: 24px;
@@ -275,6 +277,7 @@ body {
   0% {
     opacity: 1;
   }
+
   100% {
     opacity: 0;
     transform: translateY(46px);
@@ -288,10 +291,12 @@ body {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
+
   .hire-content-container {
     grid-template-columns: repeat(1, 1fr);
   }
 }
+
 @media screen and (min-width: 770px) and (max-width: 990px) {
   .skill-bar-container {
     display: grid;
